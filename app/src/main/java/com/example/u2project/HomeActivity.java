@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         usedata.setScore(0);
         //////////////////////////////////////////////
 
-        ImageView btnTest = findViewById(R.id.btn_test);
+        ConstraintLayout btnTest = findViewById(R.id.btn_test);
 
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -34,7 +34,7 @@
             android:gravity="center"
             android:fontFamily="@font/pybold"
             android:text="아까치매"
-            android:textColor="@color/mainB"
+            android:textColor="@color/blue"
             android:textSize="30sp"/>
 
         <ImageView
@@ -65,9 +65,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:text="..."
-            android:textColor="@color/mainB"
+            android:textColor="@color/blue"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:gravity="center"
             android:text="문제를 불러오고\n있습니다."
             android:textColor="#595959"
@@ -117,7 +117,7 @@
             android:layout_height="100dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/mainY"
+            android:backgroundTint="@color/yellow"
             app:cornerRadius="0dp" />
 
         <Button
@@ -127,7 +127,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/mainY"
+            android:backgroundTint="@color/yellow"
             app:cornerRadius="0dp" />
 
         <Button
@@ -136,7 +136,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/mainY"
+            android:backgroundTint="@color/yellow"
             app:cornerRadius="0dp" />
     </LinearLayout>
 
@@ -168,7 +168,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/mainB"
+            android:backgroundTint="@color/blue"
             android:gravity="center"
             android:text="2"
             android:textColor="@color/white"
@@ -181,7 +181,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/mainB"
+            android:backgroundTint="@color/blue"
             android:gravity="center"
             android:text="3"
             android:textColor="@color/white"

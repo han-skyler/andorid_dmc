@@ -106,7 +106,7 @@
         android:fontFamily="@font/pybold"
         android:gravity="center"
         android:text="아까치매"
-        android:textColor="@color/mainB"
+        android:textColor="@color/blue"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +137,7 @@
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/preregular"
+        android:fontFamily="@font/regular"
         android:text="회원가입"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="@+id/btn_register"
@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="13dp"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:text="년"
             android:textSize="22sp" />
 
@@ -193,7 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="13dp"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:text="월"
             android:textSize="22sp" />
 
@@ -212,7 +212,7 @@
             android:id="@+id/day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:text="일"
             android:textSize="22sp" />
     </LinearLayout>
@@ -220,8 +220,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Version 1.0.0"
-        android:fontFamily="@font/prethin"
-        android:textColor="@color/mainB"
+        android:fontFamily="@font/thin"
+        android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

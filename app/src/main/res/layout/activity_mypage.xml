@@ -33,7 +33,7 @@
             android:gravity="center"
             android:fontFamily="@font/pybold"
             android:text="아까치매"
-            android:textColor="@color/mainB"
+            android:textColor="@color/blue"
             android:textSize="30sp"/>
 
         <ImageView
@@ -54,7 +54,7 @@
         android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/prebold"
+        android:fontFamily="@font/bold"
         android:text="어서오세요."
         android:textSize="30sp"
         android:layout_marginTop="20dp"
@@ -65,7 +65,7 @@
         android:id="@+id/tx_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/prebold"
+        android:fontFamily="@font/bold"
         android:text="홍길동 님"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +96,7 @@
         android:layout_height="2dp"
         android:layout_marginTop="30dp"
         android:orientation="horizontal"
-        android:background="@color/mainB"
+        android:background="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tx_name"></LinearLayout>

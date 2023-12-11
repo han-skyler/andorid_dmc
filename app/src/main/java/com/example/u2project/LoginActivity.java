@@ -1,5 +1,6 @@
 package com.example.u2project;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -47,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             // 로그인 성공
-                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                             startActivity(intent);
                             Toast.makeText(LoginActivity.this, "환영합니다 :)", Toast.LENGTH_SHORT).show();
                             finish(); // 현재 액티비티 파괴

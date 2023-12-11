@@ -33,7 +33,7 @@
             android:gravity="center"
             android:fontFamily="@font/pybold"
             android:text="아까치매"
-            android:textColor="@color/mainB"
+            android:textColor="@color/blue"
             android:textSize="30sp"/>
 
         <ImageView
@@ -64,8 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
             android:text="7"
-            android:textColor="@color/mainB"
-            android:fontFamily="@font/preregular"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/regular"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
             android:text="아래 3개의 단어를 \n기억하세요."
             android:gravity="center"
             android:textColor="#595959"
-            android:fontFamily="@font/preregular"
+            android:fontFamily="@font/regular"
             android:textSize="32sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +104,7 @@
         android:id="@+id/btn_next"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:backgroundTint="@color/mainY"
+        android:backgroundTint="@color/yellow"
         android:text="다음"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
