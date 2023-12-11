@@ -3,7 +3,7 @@
     <item>
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <solid android:color="@android:color/white" /> <!-- 배경 색상 -->
-            <corners android:radius="10dp" /> <!-- 모서리 반경 -->
+            <corners android:radius="15dp" /> <!-- 모서리 반경 -->
             <stroke
                 android:width="1dp"
                 android:color="@android:color/darker_gray"/> <!-- 윤곽선 색상 -->

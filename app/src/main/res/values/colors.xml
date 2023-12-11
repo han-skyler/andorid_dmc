@@ -2,12 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_push">#FFDBDBDB</color>
     <color name="skyblue">#FFCBE4FD</color>
     <color name="icon">#FFF2F7FC</color>
     <color name="mint">#FF83E5E3</color>
     <color name="mint_push">#508E8C</color>
     <color name="blue">#FF2A8FF7</color>
-    <color name="blue_push">#FF17538F</color>
+    <color name="blue_push">#FF247BD4</color>
     <color name="yellow">#FFf89c2b</color>
     <color name="gray">#FFC9C9C9</color>
 </resources>
